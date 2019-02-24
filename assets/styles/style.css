@@ -100,3 +100,43 @@ body {
     width: 410px;
     border-bottom-width: 0px;
 }
+
+.row-1 {
+    display: flex;
+    width: 780px;
+    justify-content: space-between;
+}
+
+.hexagon {
+    width: 180px;
+    height: 206px;
+}
+
+.hex-1 {
+    overflow: hidden;
+    visibility: hidden;
+    transform: rotate(60deg);
+    background-color: teal;
+}
+
+.hex-2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: rotate(60deg);
+    background-color: yellowgreen;
+}
+
+.hex-3 {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    transform: rotate(60deg);
+    background-color: lightsalmon;
+}
+
+.hexagon img {
+    width: 182px;
+    height: 209px;
+    transform: rotate(180deg);
+}
