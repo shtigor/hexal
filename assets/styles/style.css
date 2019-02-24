@@ -62,13 +62,41 @@ body {
 }
 
 .arrow-down {
-    display: block;
-    top: 70px;
-    left: 100px;
+    position: relative;
+    top: 63px;
+    left: 465px;
     width: 0; 
     height: 0; 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    
-    border-top: 20px solid red; /*323232*/
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 26px solid #323232;
+}
+
+.portfolio {
+    background-color: white;
+    height: 720px;
+    border: 0px;
+    margin: 0px auto 0px auto;
+}
+
+.upper-line {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 960px;
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+.line-left {
+    border: 1px solid #e4e9eb;
+    width: 410px;
+    margin-right: 140px;
+    border-bottom-width: 0px;
+}
+
+.line-right {
+    border: 1px solid #e4e9eb;
+    width: 410px;
+    border-bottom-width: 0px;
 }
