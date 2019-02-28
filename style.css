@@ -76,7 +76,7 @@ body {
     background-color: white;
     height: 720px;
     border: 0px;
-    margin: 0px auto 0px auto;
+    margin: 0px auto 11px auto;
 }
 
 .upper-line {
@@ -216,16 +216,21 @@ body {
     margin: 0;
     padding: 0;
     height: 341px;
-    margin-top: 11px;
     background-color: #2eb398;
+    padding-top: 13px;
 }
 
 .about-me-box {
-    margin-left: 100px;
-    margin-top: 13px;
+    display: flex;
     height: 316px;
-    width: 920px;
+    width: 820px;
     border: 1px solid #219d84;
     border-top-width: 0;
     border-bottom-width: 0;
+    margin-left: 100px;
+}
+
+.about-me-box .hexagon {
+    margin-top: 68px;
+    margin-left: 20px;
 }
