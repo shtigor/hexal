@@ -1,0 +1,47 @@
+[33mcommit e96ac7c805382fbbb81ac55de7c4f03af66e2323[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Igor <shturmak.i.i@gmail.com>
+Date:   Mon Mar 4 12:11:45 2019 +0300
+
+    add sprite, update part about-me
+
+[33mcommit dec128dd740f9d1a186fd38da31d6a94ddfae2fb[m
+Author: Igor Shturmak <shturmak.i.i@gmail.com>
+Date:   Sun Mar 3 01:07:12 2019 +0300
+
+    work on part about me
+
+[33mcommit a3c24ba76ab1bc5293a4ef28f6f398e4192c0d69[m
+Author: Igor Shturmak <shturmak.i.i@gmail.com>
+Date:   Wed Feb 27 16:02:01 2019 -0800
+
+    update header (video RS) and about me section
+
+[33mcommit 0c3fdd4917f3b32e3feff517a966822bbdfe40cf[m
+Author: Igor Shturmak <shturmak.i.i@gmail.com>
+Date:   Tue Feb 26 15:50:33 2019 -0800
+
+    end slider, begin part about me
+
+[33mcommit 1d61dcd3e5df12cac2b61aa739c0e09a21aeec97[m
+Author: Igor Shturmak <shturmak.i.i@gmail.com>
+Date:   Mon Feb 25 15:58:31 2019 -0800
+
+    working on slider part
+
+[33mcommit fe09aa293249640445b1792b8e18f45d977bb8a5[m
+Author: Igor <shturmak.i.i@gmail.com>
+Date:   Mon Feb 25 01:31:40 2019 +0300
+
+    working on slider 1st row
+
+[33mcommit bf0908a3ea25eda2834850434c1a1c41a11f4e79[m
+Author: Igor <shturmak.i.i@gmail.com>
+Date:   Mon Feb 25 00:46:06 2019 +0300
+
+    added trinagle, working on slider
+
+[33mcommit f7c5590cf80e2b4251d467b211fd19ec2b110f60[m
+Author: Igor Shturmak <shturmak.i.i@gmail.com>
+Date:   Sat Feb 23 20:37:19 2019 +0300
+
+    make up header without triangle

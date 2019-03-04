@@ -308,3 +308,19 @@ body {
 .social-btn-dr {
     background-position: -55px -54px;
 }
+
+.footer {
+    padding: 0;
+    margin: 0;
+    background-color: #323232;
+    height: 564px;
+}
+
+.form-contact {
+    padding-top: 13px;
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.get-in-touch {
+    dis
+}
