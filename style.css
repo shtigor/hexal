@@ -218,6 +218,7 @@ body {
     height: 341px;
     background-color: #2eb398;
     padding-top: 13px;
+    font-size: 0;
 }
 
 .description {
@@ -266,4 +267,44 @@ body {
     font-size: 10pt;
     color: white;
     text-align: justify;
+}
+
+.about-me-social {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.social-btn {
+    display: inline-block;
+    color: #fff;
+    margin-right: 0;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    background: url("assets/images/about_me/sprite.png") no-repeat;
+}
+
+.social-btn-fb {
+    background-position: -10px -10px;
+}
+
+.social-btn-tw {
+    background-position: -100px -54px;
+}
+
+.social-btn-gp {
+    background-position: -55px -10px;
+}
+
+.social-btn-pi {
+    background-position: -100px -10px;
+}
+
+.social-btn-li {
+    background-position: -10px -54px;
+}
+
+.social-btn-dr {
+    background-position: -55px -54px;
 }
