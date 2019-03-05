@@ -8,18 +8,14 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="header">
-            <h1>Hexal</h1>
+        <h1 class="hidden-heading">Hexal</h1>
+        <header class="header">
             <div class="container">
-                <ul class="nav-header nav-left">
+                <ul class="nav-header">
                     <li><a href="#">Portfolio</a></li>
-                    <li>&#8729;</li>
+                    <li>&#8729;</li> 
                     <li><a href="#">About</a></li>
-                </ul>
-                <div class="logo">
-                    <img src="assets/images/Logo.png" alt="Hexal Logo" height="55" width="64">
-                </div>
-                <ul class="nav-header nav-right">
+                    <li><img src="assets/images/Logo.png" alt="Hexal Logo" height="55" width="64"></li>
                     <li><a href="#">Blog</a></li>
                     <li>&#8729;</li>
                     <li><a href="#">Get in touch</a></li>
@@ -27,7 +23,7 @@
                 <div class="arrow-down">
                 </div>
             </div>
-        </div>
+        </header>
         <div class="portfolio">
             <div class="container">
                 <div class="upper-line">
@@ -164,7 +160,7 @@
                     </div>
                     <div class="text">
                         <h2>Smith Anderson</h2>
-                        <h3>Illustrator & Character Designer</h3>
+                        <p class="position">Illustrator & Character Designer</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, 
                             nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem 
                             dui non urna. Integer gravida, diam congue molestie fringilla, elit odio 
@@ -183,25 +179,21 @@
                 </div> 
             </div>
         </div>
-        <div class="footer">
+        <div class="get-in-touch">
             <div class="container">
+                <div class="bottom-line"></div>
                 <div class="form-contact">
-                    <div class="get-in-touch">
-                        <h2>Get In Touch</h2>
-                        <legend>Get in Touch</legend>
-                        <h3>In order to get in touch use the contact form below:</h3>
-                        <form action="#">
-                            <fieldset>
-                                <input type="text" placeholder="Name" requrired>
-                                <input type="email" placeholder="Email" required>
-                                <input type="text">
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
-                            </fieldset>
-                            <button type="submit">send</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="copyright">
+                    <h2>Get In Touch</h2>
+                    <p>In order to get in touch use the contact form below:</p>
+                    <form action="#">
+                        <fieldset>
+                            <input type="text" placeholder="Name" requrired>
+                            <input type="email" placeholder="Email" required>
+                            <input type="text">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </fieldset>
+                        <button type="submit">send</button>
+                    </form>
                 </div>
             </div>
         </div>

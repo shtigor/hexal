@@ -14,33 +14,47 @@ body {
 }
 
 .header {
+    position: relative;
     background-color: #323232;
     height: 63px;
     border: 0px;
     margin: 0px auto 0px auto;
+    z-index: 9999;
+}
+
+.hidden-heading {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
 }
 
 .nav-header {
-    float: left;
+    display: flex;
     list-style: none;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
+}
+
+.header ul li {
+    padding-right: 15px;
     margin-top: 26px;
-    margin-bottom: 23px;
 }
 
-.nav-left {
-    margin-left: 316px;
+.header ul li:nth-child(1) {
+    margin-left: 23px;
 }
 
-.nav-right {
-    margin-left: 25px;
+.header ul li:nth-child(3) {
+    padding-right: 0;
 }
 
-.nav-left li,
-.nav-right li {
-    float: left;
-    padding-left: 10px;
+.header ul li:nth-child(4) {
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-right: 40px; 
+    margin-left: 40px; 
 }
 
 .nav-header a {
@@ -65,13 +79,14 @@ body {
 
 .arrow-down {
     position: relative;
-    top: 63px;
-    left: 463px;
+    top: -6px;
+    left: 50%;
     width: 0; 
     height: 0; 
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
     border-top: 26px solid #323232;
+    transform: translate(-50%);
 }
 
 .portfolio {
@@ -207,8 +222,7 @@ body {
 .slider-h-line {
     margin-top: 11px;
     margin-left: 30px;
-    border: 1px solid #e4e9eb;
-    border-bottom-width: 0px;
+    border-top: 1px solid #e4e9eb;
     width: 960px;
 }
 
@@ -253,7 +267,7 @@ body {
     text-align: justify;
 }
 
-.about-me .text h3 {
+.about-me .text .position {
     padding: 0;
     margin: 0;
     font-family: "Maven Pro";
@@ -309,18 +323,40 @@ body {
     background-position: -55px -54px;
 }
 
-.footer {
+.get-in-touch {
+    font-family: "Maven Pro";
     padding: 0;
     margin: 0;
     background-color: #323232;
     height: 564px;
 }
 
-.form-contact {
+.bottom-line {
     padding-top: 13px;
+    margin-left: 30px;
     border-bottom: 1px solid #2b2b2b;
+    width: 960px;
 }
 
-.get-in-touch {
-    dis
+.form-contact {
+    margin-left: 120px;
+}
+
+.form-contact h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin: 53px 0 4px 0;
+}
+
+.form-contact p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin: 0 0 20px 0;
+    color: rgba(190, 190, 190, 255);
+}
+
+.form-contact fieldset {
+    border-width: 0px;
 }
