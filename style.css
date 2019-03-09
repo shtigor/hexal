@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
     padding: 0px;
     margin: 0px;
-    font-family: "Lato-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+    font-family: "Lato", "AdobeInvisFont", "MyriadPro-Regular", sans-serif;
     color: white;
     font-size: 16px;
 }
@@ -35,6 +36,7 @@ body {
     margin: 0px;
     padding: 0px;
     justify-content: center;
+    font-weight: bold;
 }
 
 .header ul li {
@@ -55,6 +57,11 @@ body {
     margin-top: 10px;
     margin-right: 40px; 
     margin-left: 40px; 
+}
+
+.header ul li:nth-child(2),
+.header ul li:nth-child(6) {
+    font-weight: normal;
 }
 
 .nav-header a {
@@ -91,7 +98,7 @@ body {
 
 .portfolio {
     background-color: white;
-    height: 720px;
+    height: 700px;
     border: 0px;
     margin: 0px auto 11px auto;
 }
@@ -200,7 +207,7 @@ body {
     padding: 0;
     margin: 0;
     margin-left: 30px;
-    margin-top: 58px;
+    margin-top: 38px;
 }
 
 .scroll-slider li {
@@ -229,7 +236,7 @@ body {
 .about-me {
     margin: 0;
     padding: 0;
-    height: 341px;
+    height: 330px;
     background-color: #2eb398;
     padding-top: 13px;
     font-size: 0;
@@ -237,14 +244,14 @@ body {
 
 .description {
     display: flex;
-    height: 275px;
-    width: 820px;
+    height: 265px;
+    width: 800px;
     border: 1px solid #219d84;
     border-top-width: 0;
     border-bottom-width: 0;
     margin-left: 100px;
     padding-left: 20px;
-    padding-top: 54px;
+    padding-top: 50px;
 }
 
 .about-me .hex-3 img {
@@ -260,7 +267,7 @@ body {
 .about-me .text h2 {
     padding: 0;
     margin: 0;
-    font-family: "Maven Pro";
+    font-family: "Maven Pro", sans-serif;
     font-size: 20pt;
     font-weight: 400;
     color: white;
@@ -270,7 +277,7 @@ body {
 .about-me .text .position {
     padding: 0;
     margin: 0;
-    font-family: "Maven Pro";
+    font-family: "Maven Pro", sans-serif;
     font-size: 14pt;
     font-weight: 400;
     color: rgba(32, 129, 109, 255);
@@ -278,9 +285,12 @@ body {
 }
 
 .about-me .text p {
-    font-size: 10pt;
+    margin: 0;
+    font-size: 12px;
     color: white;
     text-align: justify;
+    line-height: 1.6;
+    margin-top: 10px;
 }
 
 .about-me-social {
@@ -324,14 +334,14 @@ body {
 }
 
 .get-in-touch {
-    font-family: "Maven Pro";
+    font-family: "Maven Pro", sans-serif;
     padding: 0;
     margin: 0;
     background-color: #323232;
-    height: 564px;
+    height: 563px;
 }
 
-.bottom-line {
+.bottom-line-top {
     padding-top: 13px;
     margin-left: 30px;
     border-bottom: 1px solid #2b2b2b;
@@ -339,17 +349,26 @@ body {
 }
 
 .form-contact {
+    display: flex;
+    flex-direction: row;
     margin-left: 120px;
+    margin-right: 120px;
 }
 
-.form-contact h2 {
+.message-area {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.message-area h2 {
     font-size: 30px;
     font-weight: 400;
     color: white;
-    margin: 53px 0 4px 0;
+    margin: 45px 0 0 0;
 }
 
-.form-contact p {
+.message-area p {
     font-size: 18px;
     font-weight: 400;
     color: white;
@@ -357,6 +376,122 @@ body {
     color: rgba(190, 190, 190, 255);
 }
 
-.form-contact fieldset {
-    border-width: 0px;
+.message-area fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.message-area input[type="text"],
+.message-area input[type="email"],
+.message-area textarea {
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    background-color: #454545;
+    color: rgba(190, 190, 190, 255);
+    padding: 13px 15px;
+    border: 1px solid #454545;
+    width: 548px;
+    height: 10px;
+    margin-bottom: 16px;
+}
+
+.message-area textarea {
+    height: 115px;
+    max-width: 548px;
+    min-width: 548px;
+    max-height: 115px;
+    min-height: 115px;
+}
+
+.message-area input[type="text"]:hover,
+.message-area input[type="email"]:hover,
+.message-area textarea:hover {
+    border: 1px solid #808080;
+}
+
+.message-area input[type="text"]:focus,
+.message-area input[type="email"]:focus,
+.message-area textarea:focus {
+    border: 1px solid #a0a0a0;
+}
+
+.btn {
+    background-color: #2eb398;
+    width: 90px;
+    height: 37px;
+    border: 0;
+    color: rgba(215, 252, 245, 255);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    float: right;
+}
+
+.info > p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.6;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+    margin-top: 115px;
+    margin-bottom: 55px;
+}
+
+p .bold {
+    font-weight: bold;
+}
+
+.info .contacts p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    color: rgba(190, 190, 190, 255);
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.info .contacts a {
+    text-decoration: none;
+    color: rgba(190, 190, 190, 255);
+}
+
+.contacts .location::before {
+    content: url("assets/images/location.png");
+    margin-right: 20px;
+}
+
+.contacts .phone::before {
+    content: url("assets/images/phone.png");
+    margin-right: 15px;
+}
+
+.contacts .mail::before {
+    content: url("assets/images/mail.png");
+    margin-right: 15px;
+}
+
+.info .contacts a:hover {
+    color: white;
+}
+
+.bottom-line-bottom {
+    padding-top: 53px;
+    margin-left: 30px;
+    border-bottom: 1px solid #2b2b2b;
+    width: 960px;
+}
+
+footer {
+    color: rgba(69, 69, 69, 255);
+    height: 43px;
+    background-color: #222222;
+}
+
+footer p {
+    margin: 0;
+    font-family: "Maven Pro", sans-serif;
+    padding: 14px 0 0 39px;
+    font-size: 12px;
 }
